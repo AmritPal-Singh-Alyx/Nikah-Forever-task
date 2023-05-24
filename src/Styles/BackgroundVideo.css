@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Mogra&display=swap');
+
+
+.bg-Video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    inset: 0px;
+    outline: none;
+    outline-offset: none;
+    opacity: 0.8;
+}
+
+
+
+
+.typed-Animation { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    position: relative;
+    top: 15rem;
+    color: black;
+    -webkit-text-stroke: 0.1px rgb(0, 0, 0);
+    
+  }
+
+  
+
+
+  
+.front-name{
+    position: relative;
+    font-size: 6em;
+    font-family: 'Mogra', cursive;
+}
+
+.animated-Description{
+    /* display: inline-block; */
+    font-family: 'Poppin', cursive;
+    text-align:center;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+
+@media screen and (max-width : 720px) {
+    
+    .front-name{
+        position: relative;
+        top: 20px;
+        font-size: 4em;
+    }
+    .animated-Description{
+        position: relative;
+        top: 15px;
+        font-size: 1.5em;
+    }
+}
+
+
+@media screen and (max-width : 530px) {
+    
+    .front-name{
+        font-size: 3em;
+    }
+    .animated-Description{
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 330px) {
+
+    .front-name{
+        font-size: 2em;
+    }
+    
+    .animated-Description{
+        font-size: 0.8em;
+    }
+    
+}
